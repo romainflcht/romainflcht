@@ -5,17 +5,20 @@
         .path_color {fill: #729fcf;}
         .bold {font-weight: bold;}
         text, tspan {white-space: pre;}
+
+        text {font-size: 0px;}
+        tspan {font-size: 20px;}
     </style>
 
 <rect width="970px" height="60px" fill="#161b22" rx="15"/>
 
-<text x="0" y="24" fill="#c9d1d9">
-    <tspan x="20" y="35" class="host_color ">romainflcht@github</tspan>
-    <tspan x="218" y="35">:</tspan>
-    <tspan x="229" y="35">~</tspan>
-    <tspan x="240" y="35" class="path_color">$</tspan>
-    <tspan x="262" y="35" class="bold">Hi there 👋</tspan>
-    <tspan x="391" y="35">█
+<text x="20" y="35" fill="#c9d1d9">
+    <tspan class="host_color ">romainflcht@github</tspan>
+    <tspan >:</tspan>
+    <tspan >~</tspan>
+    <tspan class="path_color">$ </tspan>
+    <tspan class="bold">Hi there 👋</tspan>
+    <tspan>█
     <animate attributeName="opacity" begin="0s" values="0;1;0" dur=".7s" repeatCount="indefinite" />
     </tspan>
 </text>
