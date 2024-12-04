@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="Andale Mono,AndaleMono,Consolas,monospace" width="975px" height="60px" font-size="20px">
-    <style>
-        .host_color {fill: #8ae234;}
-        .path_color {fill: #729fcf;}
-        .bold {font-weight: bold;}
-        text, tspan {white-space: pre;}
-
-        text {font-size: 0px;}
-        tspan {font-size: 20px;}
-    </style>
-
-<rect width="970px" height="60px" fill="#161b22" rx="15"/>
-
-<text x="20" y="35" fill="#c9d1d9">
-    <tspan class="host_color ">romainflcht@github</tspan>
-    <tspan >:</tspan>
-    <tspan >~</tspan>
-    <tspan class="path_color">$ </tspan>
-    <tspan class="bold">Hi there 👋</tspan>
-    <tspan>█
-    <animate attributeName="opacity" begin="0s" values="0;1;0" dur=".7s" repeatCount="indefinite" />
-    </tspan>
-</text>
+<style>
+.host_color { fill: #8ae234; }
+.path_color { fill: #729fcf; }
+.bold { font-weight: bold; }
+text, tspan { white-space: pre; font-size: 20px; } /* Assurez une taille cohérente ici */
+</style>
+<rect x="0" y="0" width="970" height="60" fill="#161b22" rx="15" text-anchor="middle"/>
+<text x="20" y="30" fill="#c9d1d9" dominant-baseline="middle" font-size="12"><tspan class="host_color">romainflcht@github</tspan><tspan >:</tspan><tspan >~</tspan><tspan class="path_color">$ </tspan><tspan class="bold">Hi there 👋</tspan><tspan>█<animate attributeName="opacity" begin="0s" values="0;1;0" dur=".7s" repeatCount="indefinite" /></tspan></text>
 </svg>
